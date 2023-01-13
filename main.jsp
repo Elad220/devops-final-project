@@ -1,6 +1,6 @@
 <html>
    <head>
-      <title>Using GET and POST Method to Read Form Data</title>
+      <title>Using GET and POST Method to Read Form Data!</title>
    </head>
    
    <body>
