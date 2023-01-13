@@ -1,0 +1,169 @@
+{
+  "id": "e154922a-c920-4600-8858-cc0b2166ada6",
+  "version": "2.0",
+  "name": "devops-proj",
+  "url": "http://localhost:8080/test-elad",
+  "tests": [{
+    "id": "a18dd215-7dad-4557-a37d-dfd8ab28f6cb",
+    "name": "Untitled",
+    "commands": [{
+      "id": "a299d6b3-dd24-448b-b9e9-2d62c35a679a",
+      "comment": "",
+      "command": "open",
+      "target": "/test-elad/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c46eabbb-7017-434a-9c23-65b1936c2dda",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=input:nth-child(4)",
+      "targets": [
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd48a0a3-d9ac-4154-b55e-3ed9ee5132b0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1391x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b2786df-f499-4710-9c66-d400b45e0545",
+      "comment": "",
+      "command": "click",
+      "target": "name=first_name",
+      "targets": [
+        ["name=first_name", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='first_name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4d8020f-56e6-4f73-be6a-09b11a885388",
+      "comment": "",
+      "command": "type",
+      "target": "name=first_name",
+      "targets": [
+        ["name=first_name", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='first_name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "elad"
+    }, {
+      "id": "5e6af56e-92a1-4102-bd74-7bef7bb74795",
+      "comment": "",
+      "command": "click",
+      "target": "name=last_name",
+      "targets": [
+        ["name=last_name", "name"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='last_name']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43bd812b-0b9b-44b9-bf1a-25d96d6a40d8",
+      "comment": "",
+      "command": "type",
+      "target": "name=last_name",
+      "targets": [
+        ["name=last_name", "name"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='last_name']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "asaf"
+    }, {
+      "id": "defa993f-048e-45dd-b8e8-9fb04ef0ded5",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(4)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39b3ab34-6913-4684-b7a1-0dee4a2da8d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > p",
+      "targets": [
+        ["css=li:nth-child(1) > p", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85872af3-7449-468f-875c-cf80bc5edd8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > p",
+      "targets": [
+        ["css=li:nth-child(1) > p", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2354b0b8-1692-46c5-8809-80f3d37972ce",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=li:nth-child(1) > p",
+      "targets": [
+        ["css=li:nth-child(1) > p", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1327b9b-71a3-4579-88da-07033d542eb5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=li:nth-child(1) > p",
+      "targets": [
+        ["css=li:nth-child(1) > p", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": "First Name: elad"
+    }, {
+      "id": "944d1236-2b97-44d8-9e24-734e6f24de82",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=li:nth-child(2) > p",
+      "targets": [
+        ["css=li:nth-child(2) > p", "css:finder"],
+        ["xpath=//li[2]/p", "xpath:position"]
+      ],
+      "value": "Last Name: asaf"
+    }, {
+      "id": "1a071fd0-34f2-4492-acea-79a1f612f026",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Using POST Method to Read Form Data')]", "xpath:innerText"]
+      ],
+      "value": "Using POST Method to Read Form Data"
+    }, {
+      "id": "42f6efe8-ce16-4f12-a3f8-9b621568ef67",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "534f7392-7eda-4e80-b9d4-ce17f84c52b9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a18dd215-7dad-4557-a37d-dfd8ab28f6cb"]
+  }],
+  "urls": ["http://localhost:8080/", "http://localhost:8080/test-elad"],
+  "plugins": []
+}
