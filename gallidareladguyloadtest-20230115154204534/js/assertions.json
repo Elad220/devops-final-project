@@ -1,0 +1,10 @@
+{
+  "simulation": "GalLidarEladGuyLoadTest",
+  "simulationId": "gallidareladguyloadtest-20230115154204534",
+  "start": 1673797325223,
+  "description": "",
+  "scenarios": ["Gal, Lidar, Elad and Guy Load Test"],
+  "assertions": [
+
+  ]
+}
