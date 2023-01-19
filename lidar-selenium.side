@@ -1,0 +1,124 @@
+{
+  "id": "fd5365cd-24a9-4d96-8fac-bca1e0d48b6f",
+  "version": "2.0",
+  "name": "lidar-test",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "c85cd702-4145-4a08-ae57-2bdc991ad5d9",
+    "name": "Untitled",
+    "commands": [{
+      "id": "d1176c04-978e-42d0-b7ab-625fc8f51739",
+      "comment": "",
+      "command": "open",
+      "target": "/jsp-app/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "710d85ca-9cc0-452c-a359-48cd56edb3e1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91a437dc-6a0f-43e3-9c7d-40e532b0b668",
+      "comment": "",
+      "command": "click",
+      "target": "name=first_name",
+      "targets": [
+        ["name=first_name", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='first_name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a8fc55b-024a-44bc-808d-8902bffd801f",
+      "comment": "",
+      "command": "type",
+      "target": "name=first_name",
+      "targets": [
+        ["name=first_name", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='first_name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Lidar"
+    }, {
+      "id": "0a45714d-8720-412e-92e0-3f153b60f052",
+      "comment": "",
+      "command": "type",
+      "target": "name=last_name",
+      "targets": [
+        ["name=last_name", "name"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='last_name']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Baruch"
+    }, {
+      "id": "6aeb39eb-aa98-498c-8b27-014b2867cb70",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(4)",
+      "targets": [
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a78055a-ea75-4c2a-9fda-9733de952d7a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=li:nth-child(1) > p",
+      "targets": [
+        ["css=li:nth-child(1) > p", "css:finder"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": "First Name: Lidar"
+    }, {
+      "id": "45d40cb6-65a5-48af-a9b4-36e770b37dc5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=li:nth-child(2) > p",
+      "targets": [
+        ["css=li:nth-child(2) > p", "css:finder"],
+        ["xpath=//li[2]/p", "xpath:position"]
+      ],
+      "value": "Last Name: Baruch"
+    }, {
+      "id": "368f80e6-9534-4f4d-b1e4-53d7f560ccd0",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Using POST Method to Read Form Data')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52ecae8c-22d8-4bb4-9500-19fac802a716",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Using POST Method to Read Form Data')]", "xpath:innerText"]
+      ],
+      "value": "Using POST Method to Read Form Data"
+    }]
+  }],
+  "suites": [{
+    "id": "a43168fb-a6a2-47de-86e0-ee90281d5db9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c85cd702-4145-4a08-ae57-2bdc991ad5d9"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
