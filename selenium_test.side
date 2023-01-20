@@ -99,7 +99,7 @@
         ["xpath=//h1", "xpath:position"],
         ["xpath=//h1[contains(.,'Using POST Method to Read Form Data')]", "xpath:innerText"]
       ],
-      "value": "Using POST Method to Read Form Data"
+      "value": "Welcome, you logged in!!!"
     }, {
       "id": "f31aa291-6e4f-4d96-bf70-6c56cb494ffd",
       "comment": "",
