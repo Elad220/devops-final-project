@@ -5,7 +5,7 @@
    
    <body>
       <center>
-      <h1>Using POST Method to Read Form Data</h1>
+      <h1>Welcome, you logged in!!!</h1>
       
       <ul>
          <li><p><b>First Name:</b>
