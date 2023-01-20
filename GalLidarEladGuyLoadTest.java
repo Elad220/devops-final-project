@@ -14,13 +14,13 @@ public class GalLidarEladGuyLoadTest extends Simulation {
 
   {
     HttpProtocolBuilder httpProtocol = http
-      .baseUrl("http://localhost:8080")
+      .baseUrl("http://localhost:8081")
       .inferHtmlResources()
       .acceptHeader("text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9")
       .acceptEncodingHeader("gzip, deflate")
       .acceptLanguageHeader("he-IL,he;q=0.9,en-US;q=0.8,en;q=0.7")
       .contentTypeHeader("application/x-www-form-urlencoded")
-      .originHeader("http://localhost:8080")
+      .originHeader("http://localhost:8081")
       .upgradeInsecureRequestsHeader("1")
       .userAgentHeader("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36");
     
