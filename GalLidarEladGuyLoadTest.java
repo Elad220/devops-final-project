@@ -38,7 +38,7 @@ public class GalLidarEladGuyLoadTest extends Simulation {
     ScenarioBuilder scn = scenario("Gal, Lidar, Elad and Guy Load Test")
       .exec(
         http("request_0")
-          .post("/Final_Project_Devops/index.jsp")
+          .post("/GuyLidarEladGal/index.jsp")
           .headers(headers_0)
           .formParam("first_name", "Gal")
           .formParam("last_name", "Bachar")
